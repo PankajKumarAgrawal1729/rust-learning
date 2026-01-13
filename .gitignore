@@ -1,2 +1,30 @@
+# Build artifacts
 /target
 target/
+*.rlib
+*.rmeta
+
+# Cargo lock files (use only for binary crates)
+# Cargo.lock
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.env
+.env.local
+
+# Rust compilation cache
+**/*.rs.bk
+*.pdb
+
+# OS-specific files
+Thumbs.db
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
